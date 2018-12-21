@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.38 SP20?>
+<LibraryInfos>
+  <Library Name="astime" IsDeployed="false" IsStatic="false" />
+  <Library Name="brsystem" IsDeployed="true" IsStatic="false" />
+  <Library Name="Convert" IsDeployed="false" IsStatic="false" />
+  <Library Name="Operator" IsDeployed="false" IsStatic="false" />
+  <Library Name="Runtime" IsDeployed="true" IsStatic="false" />
+</LibraryInfos>

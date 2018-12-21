@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="C2.31"/>
+  <Hardware Target="SGC"/>
+  <Operation Delete="Main.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Delete="brsystem.br"/>
+  <Operation Delete="iomap.br"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="cold"/>
+  <Operation Download="gcloader.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="Runtime.br" Memory="UserROM"/>
+  <Operation Download="brsystem.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="Main.br" Memory="UserROM"/>
+</Transfer>

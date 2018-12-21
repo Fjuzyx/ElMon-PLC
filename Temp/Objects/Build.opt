@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.38 SP20?>
+<BuildOptions>
+  <Project>
+    <IECNamingConvention>true</IECNamingConvention>
+    <IecKeywordsAsStructureMembers>false</IecKeywordsAsStructureMembers>
+    <IecExtendedConstants>true</IecExtendedConstants>
+    <ProjectLogicalDirectory>C:\Data\EnMon_3081\Logical\</ProjectLogicalDirectory>
+    <ProjectTempDirectory>C:\Data\EnMon_3081\Temp\</ProjectTempDirectory>
+    <ASVersion>3.0.90.38 SP20</ASVersion>
+    <Edition>Standard</Edition>
+    <CrossReference>false</CrossReference>
+    <ActiveConfiguration>Config1</ActiveConfiguration>
+    <CreateAnsiCDeclarations>false</CreateAnsiCDeclarations>
+    <GccVersion>V2.95.3</GccVersion>
+  </Project>
+  <Config Name="Config1">
+    <Target>SGC</Target>
+    <PermanentAnalogMemory>128</PermanentAnalogMemory>
+    <PermanentDigitalMemory>128</PermanentDigitalMemory>
+    <GccVersion>V2.95.3</GccVersion>
+    <SaveSourceOnTarget>false</SaveSourceOnTarget>
+  </Config>
+  <CiR />
+</BuildOptions>

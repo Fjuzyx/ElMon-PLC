@@ -1,0 +1,2 @@
+libLib3J.o:
+$(AS_CPU_PATH)/SG3/libLib3J.c

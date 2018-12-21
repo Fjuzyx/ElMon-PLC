@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Declaration of permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="IO mapping file">IoMap.iom</Object>
+  </Objects>
+  <Configuration ClassID="X20CP0291" GeneratePPCode="false" HasNcOperatingSystem="false" LocalVariablesMemory="MemoryPool" ModuleID="CP0291" Target="SGC">
+    <AutomationRuntime Version="C2.31" />
+    <Build GccVersion="2.95.3" />
+    <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
+    <Opc />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="None" />
+    <Transfer AllowWarmRestart="true" DownloadMode="Overload" GeneratePviTransferList="true" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" PackedArConfig="false" PackedIoMap="false" PromptBeforeProject="false" PromptBeforeTask="false" TransferOnlyRelevantChanges="false" />
+    <Vc FirmwareVersion="V3.73.4" />
+    <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" />
+  </Configuration>
+</Cpu>

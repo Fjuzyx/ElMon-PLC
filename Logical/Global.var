@@ -1,0 +1,21 @@
+VAR RETAIN
+	gInitDone : BOOL;
+	gPowerFactor : REAL;
+	gPowerLimit : REAL;
+	gTarifInterval : INT;
+	gTrigger1Value : INT;
+	gTrigger2Value : INT;
+	gTrigger1DeadTime : DINT;
+	gTrigger2DeadTime : DINT;
+END_VAR
+VAR
+	gTrigger1MuteActive : BOOL;
+	gTrigger2MuteActive : BOOL;
+	gTrigger1Alarm : BOOL;
+	gTrigger2Alarm : BOOL;
+	gActPower : REAL;
+	gPeakPower : REAL;
+	gPowerConsumed : REAL;
+	gPowerLimitInterval : REAL;
+	gTarifTime : DATE_AND_TIME;
+END_VAR

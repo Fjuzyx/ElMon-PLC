@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.112?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="PLC1" Type="X20CP0291" Version="1.0.3.0">
+    <Connection Connector="SL" TargetModule="X20BB22" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="Mode" Value="DHCP Client" />
+      <Parameter ID="InternetAddress" Value="192.168.0.1" />
+      <Parameter ID="SubnetMask" Value="255.255.0.0" />
+    </Connector>
+    <Parameter ID="AnalogPermanentMemory" Value="128" />
+    <Parameter ID="DigitalPermanentMemory" Value="128" />
+    <Parameter ID="BRObjects" Value="150" />
+    <Parameter ID="RebootReset" Value="2" />
+    <Parameter ID="RebootPowerfail" Value="2" />
+    <Parameter ID="Connections" Value="3" />
+    <Parameter ID="PVTables" Value="0" />
+    <Parameter ID="DelayPowerFail" Value="0" />
+    <Parameter ID="NrOfExceptionObjects" Value="0" />
+    <Parameter ID="ExceptionUserStack" Value="8" />
+    <Parameter ID="ExceptionIrqStack" Value="896" />
+    <Parameter ID="CyclicTaskClassCount" Value="2" />
+  </Module>
+  <Module Name="X20BB22" Type="X20BB22" Version="1.0.2.0" />
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BB22" TargetConnector="IF4" />
+  </Module>
+  <Module Name="X20DM9324" Type="X20DM9324" Version="1.0.4.0">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20PS9502" Type="X20PS9502" Version="1.0.0.0">
+    <Connection Connector="PS" TargetModule="X20BB22" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>

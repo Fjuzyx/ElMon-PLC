@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="I#XFFI0000" T="4">
+</LN>
+<LN ID="I#XFFI0010" T="4">
+</LN>
+<LN ID="I#XFFI0011" T="4">
+</LN>
+<LN ID="I#XFFI0012" T="4">
+</LN>
+<LN ID="I#XFFI0013" T="4">
+</LN>
+<LN ID="I#XFFI0014" T="4">
+</LN>
+<LN ID="I#XFFI0015" T="4">
+</LN>
+<LN ID="I#XFFI0016" T="4">
+</LN>
+<LN ID="I#XFFI0017" T="4">
+</LN>
+<LN ID="I#XFFI0018" T="4">
+</LN>
+<LN ID="I#XFFI0019" T="4">
+</LN>
+<LN ID="I#XFFI001A" T="4">
+</LN>
+<LN ID="I#XFFI001B" T="4">
+</LN>
+<LN ID="I#XFFI001C" T="4">
+</LN>
+<LN ID="I#XFFI001D" T="4">
+</LN>
+<LN ID="I#X01O0000$2" T="1">
+</LN>
+<LN ID="I#X01F0001$0" T="1">
+<PV ID="1Main:realPowerProcess.diS0"/>
+</LN>
+<LN ID="I#X01F0001$1" T="1">
+<PV ID="1Main:reactivePowerProcess.diS0"/>
+</LN>
+<LN ID="I#X01F0001$2" T="1">
+</LN>
+<LN ID="I#X01F0001$3" T="1">
+<PV ID="1Main:diTarif"/>
+</LN>
+<LN ID="I#X01F0001$4" T="1">
+<PV ID="1Main:diAlarm1Reset"/>
+</LN>
+<LN ID="I#X01F0001$5" T="1">
+<PV ID="1Main:diAlarm2Reset"/>
+</LN>
+<LN ID="I#X01F0001$6" T="1">
+</LN>
+<LN ID="I#X01F0001$7" T="1">
+</LN>
+<LN ID="Q#X01F0000$0" T="1">
+<PV ID="1Main:doTrigger1Sound"/>
+</LN>
+<LN ID="Q#X01F0000$1" T="1">
+<PV ID="1Main:doTrigger2Sound"/>
+</LN>
+<LN ID="Q#X01F0000$2" T="1">
+<PV ID="1Main:doTrigger1Light"/>
+</LN>
+<LN ID="Q#X01F0000$3" T="1">
+<PV ID="1Main:doTrigger2Light"/>
+</LN>
+<LN ID="I#X01F0002$0" T="1">
+</LN>
+<LN ID="I#X01F0002$1" T="1">
+</LN>
+<LN ID="I#X01F0002$2" T="1">
+</LN>
+<LN ID="I#X01F0002$3" T="1">
+</LN>
+<LN ID="I#X00O0000$2" T="1">
+</LN>
+<LN ID="I#X00F0001$0" T="1">
+</LN>
+<LN ID="I#X00F0001$2" T="1">
+</LN>
+</Links></IO>

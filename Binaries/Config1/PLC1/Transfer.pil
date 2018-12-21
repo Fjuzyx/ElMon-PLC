@@ -1,0 +1,17 @@
+Connection "/IF=tcpip /LOPO=11159 /SA=100", "/RT=1000 /DA=2 /REPO=11159 /ANSL=1"
+Diagnose
+DeleteMemory ROM
+DeleteMemory PERMMEM
+Coldstart
+Download: ".\System\X20CP0291C23.BR", "ROM"
+Coldstart
+Download: ".\asfw.br", "SYSROM"
+Download: ".\arconfig.br", "SYSROM"
+Download: ".\sysconf.br", "SYSROM"
+Coldstart
+Download: ".\gcloader.br", "ROM"
+Download: ".\iomap.br", "ROM"
+Download: ".\Runtime.br", "ROM"
+Download: ".\brsystem.br", "ROM"
+Download: ".\astime.br", "ROM"
+Download: ".\Main.br", "ROM"

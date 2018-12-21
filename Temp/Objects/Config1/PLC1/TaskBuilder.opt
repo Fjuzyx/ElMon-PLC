@@ -1,0 +1,1 @@
+Main	"$(AS_CPU_PATH)/Main/Main.ox" -o "$(AS_CPU_PATH)/Main.br" -v V1.00.0 -f "$(AS_CPU_PATH)/Global.ofs" -T SGC  -B C2.31 -extConstants -d "gcloader: V1.32 - V*" -r Cyclic1 -p 2 -s Main --$$$newFormat$$$

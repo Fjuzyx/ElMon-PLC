@@ -1,0 +1,10 @@
+VAR
+	timer : UDINT;
+	doPulse : BOOL;
+	doTarif : BOOL;
+	pulseDelay : INT;
+	pulsePeriod : UDINT;
+	tarifDelay : INT;
+	tarifPeriod : UDINT;
+	tarifTimer : UDINT;
+END_VAR

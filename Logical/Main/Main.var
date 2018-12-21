@@ -1,0 +1,29 @@
+VAR CONSTANT
+	MAX_HISTORY_LIST : UINT := 95;
+END_VAR
+VAR
+	realPowerProcess : MeasurementProcess_typ;
+	reactivePowerProcess : MeasurementProcess_typ;
+	tmpPeriod : TIME;
+	fbRTInfo : RTInfo := (0);
+	cycleTime : REAL;
+END_VAR
+VAR RETAIN
+	historyList : ARRAY[0..MAX_HISTORY_LIST] OF HistoryItem_typ;
+	historyListNextItemIndex : UINT;
+END_VAR
+VAR
+	fbGetTime : DTGetTime;
+	reset : BOOL;
+	diTarif : BOOL;
+	diAlarm1Reset : BOOL;
+	diAlarm2Reset : BOOL;
+	trigTarif : BOOL;
+	tarifFactor : REAL;
+	doTrigger1Sound : BOOL;
+	doTrigger2Sound : BOOL;
+	doTrigger1Light : BOOL;
+	doTrigger2Light : BOOL;
+	trigger1Delay : DINT;
+	trigger2Delay : DINT;
+END_VAR

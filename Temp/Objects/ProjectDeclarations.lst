@@ -1,0 +1,16 @@
+\Logical\Global.typ
+\Logical\Global.var
+\Logical\Libraries\Convert\Convert.fun
+\Logical\Libraries\Runtime\runtime.var
+\Logical\Libraries\Runtime\runtime.typ
+\Logical\Libraries\Runtime\runtime.fun
+\Logical\Libraries\Operator\operator.fun
+\Logical\Libraries\brsystem\brsystem.var
+\Logical\Libraries\brsystem\brsystem.fun
+\Logical\Libraries\astime\astime.var
+\Logical\Libraries\astime\astime.typ
+\Logical\Libraries\astime\astime.fun
+\Logical\Main\Main.typ
+\Logical\Main\Main.var
+\Logical\Test\Test.typ
+\Logical\Test\Test.var

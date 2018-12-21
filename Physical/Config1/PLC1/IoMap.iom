@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: IoMap.iom
+ * Author: Petr Fišer
+ * Created: June 19, 2013
+ ********************************************************************
+ * IO mapping file
+ ********************************************************************)
+VAR_CONFIG
+	::Main:realPowerProcess.diS0 AT %IX."X20DM9324".DigitalInput01;
+	::Main:reactivePowerProcess.diS0 AT %IX."X20DM9324".DigitalInput02;
+	::Main:diTarif AT %IX."X20DM9324".DigitalInput04;
+	::Main:doTrigger1Sound AT %QX."X20DM9324".DigitalOutput01;
+	::Main:doTrigger2Sound AT %QX."X20DM9324".DigitalOutput02;
+	::Main:diAlarm1Reset AT %IX."X20DM9324".DigitalInput05;
+	::Main:diAlarm2Reset AT %IX."X20DM9324".DigitalInput06;
+	::Main:doTrigger1Light AT %QX."X20DM9324".DigitalOutput03;
+	::Main:doTrigger2Light AT %QX."X20DM9324".DigitalOutput04;
+END_VAR

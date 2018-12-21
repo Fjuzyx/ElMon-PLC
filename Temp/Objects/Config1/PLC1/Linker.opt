@@ -1,0 +1,1 @@
+Main	-o "$(AS_CPU_PATH)/Main/a.out" "$(AS_CPU_PATH)/Main/Main.o"  -G V2.95.3  -Wl,--script=SG3.x -Wl,-q -T SGC  --$$$newFormat$$$

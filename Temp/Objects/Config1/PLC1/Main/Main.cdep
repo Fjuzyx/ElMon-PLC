@@ -1,0 +1,2 @@
+Main.o:
+$(AS_PROJECT_PATH)/Logical/Main/Main.c
